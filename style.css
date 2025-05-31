@@ -1,0 +1,7 @@
+.paizao{
+    background-color: #EFFAFF;
+    width: 1440px;
+    height: 430px;
+    display: flex;
+    flex-direction: row;
+}
