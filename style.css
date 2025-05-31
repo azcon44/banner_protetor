@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 .paizao{
     background-color: #EFFAFF;
     width: 1440px;
@@ -9,4 +10,10 @@
 .pai-texto{
     display: flex;
     flex-direction: column;
+    margin-left: 35px;
+}
+
+.titulo{
+    color:#FF8A00;
+    font-family: "Major Mono Display", monospace;
 }
