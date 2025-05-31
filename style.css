@@ -5,3 +5,8 @@
     display: flex;
     flex-direction: row;
 }
+
+.pai-texto{
+    display: flex;
+    flex-direction: column;
+}
