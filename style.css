@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 .paizao{
     background-color: #EFFAFF;
     width: 1440px;
@@ -16,4 +17,12 @@
 .titulo{
     color:#FF8A00;
     font-family: "Major Mono Display", monospace;
+    font-weight: 400;
+    font-size: 30px;
+}
+.paragrafo{
+    color: #4B4B4B;
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
 }
