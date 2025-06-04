@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
-.paizao{
+.paizao {
     background-color: #EFFAFF;
-    width: 1440px;
-    height: 430px;
+    max-width: 1600vh; 
+    width: 1600px;
+    height: 600px; 
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
 }
 
 .pai-texto{
@@ -25,4 +32,40 @@
     font-family: "Mulish", sans-serif;
     font-weight: 400;
     font-size: 18px;
+}
+.btn-order {
+    background-color: #FF8A00; 
+    color: white;
+    border: none;
+    width: 194px; 
+    height: 40px; 
+    top: 330px; 
+    left: 60px; 
+    border-radius: 7px; 
+    padding-top: 10px; 
+    padding-right: 30px; 
+    padding-bottom: 10px; 
+    padding-left: 30px; 
+    gap: 10px; 
+    font-family: "Mulish", sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.img_protetor{
+        transform: translateY(-80px);
+        position: relative;
+        margin-left: 800px;
+
+}
+
+.img_protetor_creme{
+    position: relative;
+    margin-left: 700px;
+    transform: translateY(-310px);
 }
